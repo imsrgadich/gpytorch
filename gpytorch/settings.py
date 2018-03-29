@@ -70,6 +70,10 @@ class max_lanczos_iterations(_value_context):
     _global_value = 100
 
 
+class max_pc_root_size(_value_context):
+    _global_value = 50
+
+
 class max_preconditioner_size(_value_context):
     """
     The maximum size of preconditioner to use. 0 corresponds to turning preconditioning off.
